@@ -6,8 +6,8 @@ public class TernarySearch {
     {
         while(low<=high)
         {
-            int mid1=low + (high-low)/3;
-            int mid2=high - (high-low)/3;
+            int mid1=high * 1/3;
+            int mid2=high * 2/3;
             if(target==arr[mid1])
                 return mid1;
             if (target==arr[mid2])

@@ -4,8 +4,8 @@ Ternary Search is a divide and conquer search algorithm that works on a sorted a
 # How Ternary Search Works?
 Find two midpoints:
 
-mid1 = low + (high - low) / 3
-mid2 = high - (high - low) / 3
+mid1=high * 1/3;
+mid2=high * 2/3;
 Compare the target element with arr[mid1] and arr[mid2]:
 
 If target == arr[mid1], return mid1.
